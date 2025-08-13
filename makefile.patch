@@ -1,0 +1,11 @@
+--- a/Makefile	2025-08-13 12:31:19.019675389 +0900
++++ b/Makefile	2025-08-13 12:31:46.255588997 +0900
+@@ -93,7 +93,7 @@
+ host_triplet = arm-unknown-mingw32ce
+ #libSDL_image_la_DEPENDENCIES =  \
+ #	$(am__DEPENDENCIES_1)
+-noinst_PROGRAMS = showimage$(EXEEXT)
++noinst_PROGRAMS = 
+ subdir = .
+ ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
+ am__aclocal_m4_deps = $(top_srcdir)/acinclude/libtool.m4 \
